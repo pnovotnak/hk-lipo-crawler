@@ -1,3 +1,7 @@
+# Preface
+
+This is not my best work. It's not fast, it's not clean, but it *does work.* If you'd like to put in some effort cleaning it up, extending it to other parts or sites, drop me a line.
+
 # Setup
 
 `cd` to your clone of this repository
