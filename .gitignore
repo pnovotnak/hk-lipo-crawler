@@ -1,3 +1,7 @@
+# Python files
 env/*
 *.pyc
+
+# Output files
 *.json
+*.csv
