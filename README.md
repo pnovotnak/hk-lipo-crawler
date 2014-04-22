@@ -10,6 +10,10 @@ Get a virtualenv set up
 
     virtualenv env
 
+Activate it
+
+    source env/bin/activate
+
 Then install requirements
 
     pip install -r requirements.txt
