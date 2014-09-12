@@ -36,7 +36,8 @@ function osx() {
 if ! hash virtualenv 2>/dev/null; then
     # Check for lsb_release binary, which would indicate a linux system
     if hash lsb_release 2>/dev/null; then
-        if [ "$(lsb_release -i | cut -d: -f2 | tr -d '\t' | tr -d ' ')" == *"Debian Ubuntu"* ]; then
+        distrobution="$(lsb_release -i | cut -d: -f2 | tr -d '\t' | tr -d ' ')"
+        if [ "Debian Ubuntu" == *"$distrobution"* ]; then
             debian_linux
         else
             echo "I don't know how to install myself on your system. Best of luck!"
