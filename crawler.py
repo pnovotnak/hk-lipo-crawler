@@ -1,7 +1,4 @@
-try:
-    from bs4 import BeautifulSoup
-except:
-    import BeautifulSoup
+from bs4 import BeautifulSoup
 
 import requests
 

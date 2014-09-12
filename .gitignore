@@ -5,3 +5,5 @@ env/*
 # Output files
 *.json
 *.csv
+
+.idea/
